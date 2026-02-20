@@ -8,7 +8,9 @@ export function clothingSuggestion(temp) {
         suggestion = "wear a heavy winter coat";
     } else if (temp < 10) {
         suggestion = "wear a jacket";
-    } else if (temp< 20) {
+    } else if (temp < 20) {
+        suggestion = "wear a sweater";
+    } else if (temp< 30) {
         suggestion = "T=shirt is fine";
     } else {
         suggestion = "wear shorts";
